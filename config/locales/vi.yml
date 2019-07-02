@@ -1,0 +1,29 @@
+vi:
+  en_key: "Tiếng anh"
+  vi_key: "Tiếng việt"
+  hello: "Xin chào"
+  title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  ruby: "Hướng dẫn về Ruby on Rails"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      app: "Ứng dụng mẫu"
+      home_for: "Đây là trang chủ cho "
+      home_name: "ứng dụng sample"
+    help:
+      help: "Trợ giúp"
+      help_ruby: "Tìm kiếm trợ giúp ruby on rails tutorial tại"
+      help_app: "Tìm trợ giúp trên cùng app , tìm tại"
+      ruby: "Trang trợ giúp hướng dẫn Rails"
+    about:
+      book: "sách"
+      screen: "chuỗi bài"
+      about: "Về"
+      the: "Đây"
+      is: "là một"
+      and: "và"
+      about_teach: "để dạy phát triển web với"
+      about_app: "Đây là ứng dụng mẫu cho hướng dẫn"
+    contact:
+      contact: "Liên hệ"
+      contact_ruby: "Liên hệ với hướng dẫn của Ruby on rails về ứng dụng mẫu tại"
