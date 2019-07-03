@@ -1,15 +1,23 @@
 en:
   en_key: "English"
   vi_key: "Vietnamese"
-  hello: "Hello world"
+  in: "Log in"
+  out: "Log out"
+  sample: "Sample App"
   title: "Ruby on Rails Tutorial Sample App"
   ruby: "Ruby on Rails Tutorial"
+  home: "Home"
+  help: "Help"
+  about: "About"
+  contact: "Contact"
+  new: "News"
   static_pages:
     home:
       home: "Home"
-      app: "Sample App"
+      app: "Welcome to the Sample App"
       home_for: "This is the home page for the"
       home_name: "sample application"
+      sign_up: "Sign up now !"
     help:
       help: "Help"
       help_ruby: "Get help on the ruby on rails tutorial at the"
@@ -27,3 +35,6 @@ en:
     contact:
       contact: "Contact"
       contact_ruby: "Contact the Ruby on rails tutorial about the sample app at the"
+  users:
+    new:
+      sign_up: "Sign Up"
