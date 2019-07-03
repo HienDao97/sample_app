@@ -1,15 +1,23 @@
 vi:
   en_key: "Tiếng anh"
   vi_key: "Tiếng việt"
-  hello: "Xin chào"
+  in: "Đăng nhập"
+  out: "Đăng xuất"
+  sample: "Ứng dụng mẫu"
   title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   ruby: "Hướng dẫn về Ruby on Rails"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  about: "Về"
+  contact: "Liên hệ"
+  new: "Tin tức"
   static_pages:
     home:
       home: "Trang chủ"
-      app: "Ứng dụng mẫu"
+      app: "Chào mừng bạn đến với Ứng dụng mẫu"
       home_for: "Đây là trang chủ cho "
       home_name: "ứng dụng sample"
+      sign_up: "Đăng ký ngay !"
     help:
       help: "Trợ giúp"
       help_ruby: "Tìm kiếm trợ giúp ruby on rails tutorial tại"
@@ -27,3 +35,6 @@ vi:
     contact:
       contact: "Liên hệ"
       contact_ruby: "Liên hệ với hướng dẫn của Ruby on rails về ứng dụng mẫu tại"
+  users:
+    new:
+      sign_up: "Đăng ký"

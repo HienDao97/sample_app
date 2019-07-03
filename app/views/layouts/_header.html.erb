@@ -1,0 +1,13 @@
+ <header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to t("sample"), root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t("home").html_safe, root_path %></li>
+        <li><%= link_to t("help").html_safe, help_path %></li>
+        <li><%= link_to t("in").html_safe, login_path %></li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
