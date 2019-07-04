@@ -38,3 +38,8 @@ en:
   users:
     new:
       sign_up: "Sign Up"
+      name: "Name"
+      email: "Email"
+      pass: "Password"
+      pass_conf: "Password confirmatio"
+      create: "Create my acount"
