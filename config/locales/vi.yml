@@ -38,3 +38,8 @@ vi:
   users:
     new:
       sign_up: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      pass_conf: "Xác nhận mật khẩu"
+      create: "Đăng ký tài khoản"
