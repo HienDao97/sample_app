@@ -3,12 +3,26 @@
     <%= link_to t("sample"), root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to t("en_key").html_safe, locale: "en" %></li>
-        <li><%= link_to t("vi_key").html_safe, locale: "vi" %></li>
-        <li><%= link_to t("home").html_safe, root_path %></li>
-        <li><%= link_to t("help").html_safe, help_path %></li>
-        <li><%= link_to t("in").html_safe, login_path %></li>
-
+        <li><%= link_to t("en_key"), locale: "en" %></li>
+        <li><%= link_to t("vi_key"), locale: "vi" %></li>
+        <li><%= link_to t("home"), root_path %></li>
+        <li><%= link_to t("help"), help_path %></li>
+        <% if logged_in? %>
+        <li><%= link_to t("user"), "#" %></li>
+        <li class="dropdown">
+          <%= link_to t("account"), "#", class: "dropdown-toggle", data: {toggle: "dropdown"} %>
+          <ul class="dropdown-menu">
+            <li><%= link_to t("profile"), current_user %></li>
+            <li><%= link_to t("setting"), "#" %></li>
+            <li class="divider"></li>
+            <li>
+              <%= link_to t("out"), logout_path, method: :delete %>
+            </li>
+          </ul>
+        </li>
+        <% else %>
+        <li><%= link_to t("in"), login_path %></li>
+        <% end %>
       </ul>
     </nav>
   </div>

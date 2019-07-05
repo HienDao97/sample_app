@@ -4,7 +4,6 @@ ActiveRecord::Schema.define(version: 2019_07_02_091534) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-
     t.string "password_digest"
   end
 

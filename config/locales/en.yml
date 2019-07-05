@@ -8,9 +8,13 @@ en:
   ruby: "Ruby on Rails Tutorial"
   home: "Home"
   help: "Help"
+  user: "Users"
   about: "About"
   contact: "Contact"
   new: "News"
+  account: "Account"
+  profile: "Profile"
+  setting: "Setting"
   static_pages:
     home:
       home: "Home"
@@ -43,3 +47,16 @@ en:
       pass: "Password"
       pass_conf: "Password confirmatio"
       create: "Create my acount"
+    create:
+      success: " Welcome to the Sample App!"
+  session:
+    new:
+      login: "Log In"
+      sign_up: "Sign Up"
+      email: "Email"
+      pass: "Password"
+      new_user: "New user?"
+    create:
+      success: " Welcome to the Sample App!"
+      danger: "Invalid email/password combination"
+
