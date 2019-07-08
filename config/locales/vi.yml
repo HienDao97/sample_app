@@ -8,9 +8,13 @@ vi:
   ruby: "Hướng dẫn về Ruby on Rails"
   home: "Trang chủ"
   help: "Trợ giúp"
+  user: "Người dùng"
   about: "Về"
   contact: "Liên hệ"
   new: "Tin tức"
+  account: "Tài khoản"
+  profile: "Thông tin"
+  setting: "Cài đặt"
   static_pages:
     home:
       home: "Trang chủ"
@@ -43,3 +47,15 @@ vi:
       pass: "Mật khẩu"
       pass_conf: "Xác nhận mật khẩu"
       create: "Đăng ký tài khoản"
+    create:
+      success: "Chào mừng bạn đến với Ứng dụng mẫu"
+  session:
+    new:
+      login: "Đăng nhập"
+      sign_up: "Đăng ký"
+      email: "Email"
+      pass: "Mật khẩu"
+      new_user: "Tạo tài khoản mới?"
+    create:
+      success: "Chào mừng bạn đến với Ứng dụng mẫu"
+      danger: "Đăng nhập thất bại"
