@@ -55,8 +55,9 @@ en:
       sign_up: "Sign Up"
       email: "Email"
       pass: "Password"
+      remember: "Remember me on this computer"
       new_user: "New user?"
+      danger: "User not found"
     create:
       success: " Welcome to the Sample App!"
       danger: "Invalid email/password combination"
-
