@@ -55,7 +55,9 @@ vi:
       sign_up: "Đăng ký"
       email: "Email"
       pass: "Mật khẩu"
+      remember: "Ghi nhớ đăng nhập"
       new_user: "Tạo tài khoản mới?"
+      danger: "Khong tim thay tai khoan"
     create:
       success: "Chào mừng bạn đến với Ứng dụng mẫu"
       danger: "Đăng nhập thất bại"
