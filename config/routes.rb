@@ -13,6 +13,7 @@ Rails.application.routes.draw do
       get "(page/:page)", action: :index, on: :collection, as: ''
   end
   resources :users, concerns: :paginatable
-  resources :account_activations, only: [:edit]
-  resources :password_resets, only: [:new, :create, :edit, :update]
+  resources :account_activations, only: :edit
+  resources :password_resets, except: %i(index show destroy)
+  resources :microposts, only: %i(create destroy)
 end
