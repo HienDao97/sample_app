@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   scope "(:locale)", locale: /en|vi/ do
-    get "session/new"
     root "static_pages#home"
     get "/help", to: "static_pages#help", as: "help"
     get "/about", to: "static_pages#about"
@@ -10,6 +9,10 @@ Rails.application.routes.draw do
     get "/login", to: "session#new"
     post "/login", to: "session#create"
     delete "/logout", to: "session#destroy"
-    resources :users
+
+    concern :paginatable do
+        get "(page/:page)", action: :index, on: :collection, as: ''
+    end
+    resources :users, concerns: :paginatable
   end
 end

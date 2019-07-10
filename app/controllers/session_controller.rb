@@ -15,7 +15,7 @@ class SessionController < ApplicationController
       end
 
       flash[:success] = t ".success"
-      redirect_to user
+      redirect_back_or user
     else
       flash[:danger] = t ".danger"
       render :new

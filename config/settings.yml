@@ -4,3 +4,5 @@ maximum_email_length: 255
 minimum_password_length: 6
 size_image: 80
 remember_me_value: 1
+size_image_list: 50
+paginate_user: 15

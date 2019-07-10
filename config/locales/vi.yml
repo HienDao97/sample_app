@@ -15,6 +15,13 @@ vi:
   account: "Tài khoản"
   profile: "Thông tin"
   setting: "Cài đặt"
+  views:
+    pagination:
+      first: "« Trang đầu"
+      last: "Trang cuối»"
+      previous: "‹ Trước"
+      next: "Tiếp ›"
+      truncate: "…"
   static_pages:
     home:
       home: "Trang chủ"
@@ -40,6 +47,14 @@ vi:
       contact: "Liên hệ"
       contact_ruby: "Liên hệ với hướng dẫn của Ruby on rails về ứng dụng mẫu tại"
   users:
+    form:
+      name: "Tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      pass_conf: "Xác nhận mật khẩu"
+    user:
+      delete: "xóa"
+      sure: "Bạn có chắc chắn xóa ?"
     new:
       sign_up: "Đăng ký"
       name: "Tên"
@@ -49,6 +64,18 @@ vi:
       create: "Đăng ký tài khoản"
     create:
       success: "Chào mừng bạn đến với Ứng dụng mẫu"
+    edit:
+      edit: "Chỉnh sửa thông tin"
+      edit_btn: "Lưu thay đổi"
+      danger: "Vui lòng đăng nhập"
+    update:
+      success: "Cập nhật thành công"
+      danger: "Vui lòng đăng nhập"
+    index:
+      list: "Danh sách"
+      index: "Danh sách người dùng"
+    destroy:
+      success: "Bạn đã xóa !"
   session:
     new:
       login: "Đăng nhập"
