@@ -27,13 +27,12 @@ group :test do
   gem "selenium-webdriver"
 end
 gem "bootstrap-kaminari-views"
-gem "bootstrap-will_paginate"
 gem "config"
 gem "faker"
+gem "figaro"
 gem "jquery-rails", "~> 4.3", ">= 4.3.3"
 gem "kaminari"
 gem "rails-ujs", "~> 0.1.0"
 gem "ransack"
 gem "rubocop", "~> 0.54.0", require: false
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem "will_paginate"

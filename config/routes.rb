@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  scope "(:locale)", locale: /en|vi/ do
     root "static_pages#home"
     get "/help", to: "static_pages#help", as: "help"
     get "/about", to: "static_pages#about"
@@ -14,5 +13,5 @@ Rails.application.routes.draw do
         get "(page/:page)", action: :index, on: :collection, as: ''
     end
     resources :users, concerns: :paginatable
-  end
+    resources :account_activations, only: [:edit]
 end
