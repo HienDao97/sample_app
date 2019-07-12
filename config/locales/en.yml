@@ -60,10 +60,12 @@ en:
       create: "Create my acount"
     create:
       success: " Welcome to the Sample App!"
+      info: "Please check your email to activate your account."
     edit:
       edit: "Edit User"
       edit_btn: "Save changes"
       danger: "Please log in"
+      change: "change"
     update:
       success: "Profile updated"
       danger: "Please log in"
@@ -89,3 +91,23 @@ en:
     create:
       success: " Welcome to the Sample App!"
       danger: "Invalid email/password combination"
+      message: "Account not activated."
+      message_link: "Check your email for the activation link."
+  account_activations:
+    edit:
+      success_f: "Account activated!"
+      danger_f: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      sample: "Sample App"
+      gretting: "Hi"
+      activate_content: "Welcome to the Sample App! Click on the link
+                         below to activate your account:"
+      activate: "Activate"
+
+  shared:
+    error_messages:
+      the_form_contains: "the form contains "
+  mailers:
+    user_mailer:
+      subject: "Test sample email"
