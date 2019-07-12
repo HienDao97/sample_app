@@ -6,16 +6,15 @@ class SessionController < ApplicationController
     session = params[:session]
 
     if user&.authenticate session[:password]
-      log_in user
-
-      if session[:remember_me] == Settings.remember_me_value
-        remember(user)
+      if user.activated?
+        log_in user
+        session_remember_user user
+        flash[:success] = t ".success"
+        redirect_back_or user
       else
-        forget(user)
+        flash[:warning] = t ".warning"
+        redirect_to root_url
       end
-
-      flash[:success] = t ".success"
-      redirect_back_or user
     else
       flash[:danger] = t ".danger"
       render :new
@@ -31,5 +30,13 @@ class SessionController < ApplicationController
 
   def downcase_param_email
     params[:session][:email].downcase
+  end
+
+  def session_remember_user user
+    if session[:remember_me] == Settings.remember_me_value
+      remember(user)
+    else
+      forget(user)
+    end
   end
 end
