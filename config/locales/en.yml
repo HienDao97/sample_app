@@ -82,6 +82,17 @@ en:
     warning: "Not find user"
     show:
       danger_f: "Invalid email/pass"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow: "follow"
+    unfollow:
+      unfollow: "unfollow"
+    show_follow:
+      view_my_profile: "View my profile"
+      microposts: "Microposts"
   session:
     new:
       login: "Log In"
@@ -165,6 +176,9 @@ en:
       alert: "Maximum file size is 5MB. Please choose a smaller file."
     error_messages:
       the_form_contains: "the form contains"
+    stats:
+      following: "Following"
+      followers: "Followers"
   application:
     logged_in_user:
       danger: "Please log in "
