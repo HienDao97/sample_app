@@ -24,4 +24,11 @@
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
+
 /config/application.yml
+
+/public/uploads/*
+/public/javascripts/i18n.js
+/public/javascripts/translations.js
+
+/config/i18n-js.yml

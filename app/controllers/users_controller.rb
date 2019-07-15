@@ -8,7 +8,11 @@ class UsersController < ApplicationController
     @users = User.all.page(params[:page]).per Settings.paginate_user
   end
 
-  def show; end
+  def show
+    redirect_to(root_url) && return unless @user
+    @microposts = @user.microposts.page(params[:page])
+                       .per Settings.paginate_post
+  end
 
   def new
     @user = User.new

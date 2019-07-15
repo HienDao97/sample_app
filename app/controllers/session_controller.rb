@@ -34,9 +34,9 @@ class SessionController < ApplicationController
 
   def session_remember_user user
     if session[:remember_me] == Settings.remember_me_value
-      remember(user)
+      remember user
     else
-      forget(user)
+      forget user
     end
   end
 end

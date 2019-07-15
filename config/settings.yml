@@ -6,3 +6,11 @@ size_image: 80
 remember_me_value: "1"
 size_image_list: 50
 paginate_user: 15
+maximum_post_length: 140
+size_image_post: 50
+paginate_post: 10
+picture_type: "image/jpeg,image/gif,image/png"
+size_in_megabytes: 5
+password_reset_expired_time: 2
+width: 400
+height: 400

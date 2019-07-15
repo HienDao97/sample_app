@@ -27,12 +27,18 @@ group :test do
   gem "selenium-webdriver"
 end
 gem "bootstrap-kaminari-views"
+gem "carrierwave"
 gem "config"
 gem "faker"
 gem "figaro"
+gem "i18n-js"
 gem "jquery-rails", "~> 4.3", ">= 4.3.3"
 gem "kaminari"
+gem "mini_magick"
 gem "rails-ujs", "~> 0.1.0"
 gem "ransack"
 gem "rubocop", "~> 0.54.0", require: false
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+group :production do
+  gem "fog", "1.42"
+end
